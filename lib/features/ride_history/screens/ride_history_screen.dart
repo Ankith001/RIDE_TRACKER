@@ -53,7 +53,7 @@ class _RideHistoryScreenState extends State<RideHistoryScreen>
 
   @override
   void dispose() {
-    _scrollController.dispose(); // dispose the controller
+    _scrollController.dispose();
     super.dispose();
   }
 
